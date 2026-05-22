@@ -20,10 +20,10 @@
 
         layer_1 {
             bindings = <
-&kp LG(LS(NUMBER_4))  &none      &kp LBKT  &kp RBKT   &kp LS(LG(N4))  &kp TAB    &kp N7     &kp N8    &kp N9     &kp N0
-&none                 &none      &kp LPAR  &kp RPAR   &kp SLASH       &kp EQUAL  &kp N4     &kp N5    &kp N6     &kp AT
-&none                 &none      &none     &kp PRCNT  &kp PERIOD      &kp MINUS  &kp N1     &kp N2    &kp N3     &none
-&none                 &kp LSHFT  &kp LALT  &kp LGUI   &kp SPACE       &kp SPACE  &kp ENTER  &kp BSPC  &kp LCTRL  &kp LC(SPACE)
+&kp LG(LS(NUMBER_4))  &none           &kp LBKT        &kp RBKT         &kp LS(LG(N4))  &kp TAB    &kp N7     &kp N8    &kp N9     &kp N0
+&kp ESCAPE            &none           &kp LPAR        &kp RPAR         &kp SLASH       &kp EQUAL  &kp N4     &kp N5    &kp N6     &kp AT
+&kp TAB               &kp CAPS        &kp UP_ARROW    &kp PRCNT        &kp PERIOD      &kp MINUS  &kp N1     &kp N2    &kp N3     &none
+&none                 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SPACE       &kp SPACE  &kp ENTER  &kp BSPC  &kp LCTRL  &kp LC(SPACE)
             >;
         };
 
